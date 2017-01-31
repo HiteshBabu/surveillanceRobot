@@ -1,0 +1,19 @@
+import RPi.GPIO as io
+io.setmode(io.BCM)
+
+m1_pin1 = 4
+m1_pin2 = 17
+
+m2_pin1 = 23
+m2_pin2 = 24
+
+io.setup(m1_pin1, io.OUT)
+io.setup(m1_pin2, io.OUT)
+io.setup(m2_pin1, io.OUT)
+io.setup(m2_pin2, io.OUT)
+
+
+io.output(m1_pin1, False)
+io.output(m1_pin2, False)
+io.output(m2_pin1, True)
+io.output(m2_pin2, False)
