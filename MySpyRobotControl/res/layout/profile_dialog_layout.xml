@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+              android:layout_width="match_parent" 
+              android:layout_height="match_parent"
+              android:background="#ffffff"
+              android:orientation="vertical" 
+              android:padding="10dp">
+              
+    <LinearLayout 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        >
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_name" />
+    
+    <EditText android:id="@+id/profilename" android:layout_width="fill_parent" 
+               android:layout_height="wrap_content"
+               android:inputType="text|textEmailAddress" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/raspberry_pi_hostname_nor_ip_address" />
+    
+    <EditText android:id="@+id/ipaddress" android:layout_width="fill_parent" 
+              android:layout_height="wrap_content"
+              android:inputType="text|textEmailAddress" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ssh_username" />
+    
+    <EditText android:id="@+id/sshusername" android:layout_width="fill_parent" 
+              android:layout_height="wrap_content"
+              android:inputType="text|textEmailAddress" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ssh_password" />
+    
+    <EditText android:id="@+id/sshpassword" android:layout_width="fill_parent" 
+              android:layout_height="wrap_content" 
+              android:inputType="textPassword"/>
+    </LinearLayout>
+</ScrollView>

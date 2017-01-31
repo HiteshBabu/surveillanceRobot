@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Spy Robot</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_new_user">NewUser</string>
+    <string name="row">Row</string>
+    <string name="shutdown">Shutdown</string>
+    <string name="reboot">Reboot</string>
+    <string name="profile_name">Profile Name</string>
+    <string name="raspberry_pi_hostname_nor_ip_address">Raspberry Pi Hostname\\nor IP Address</string>
+    <string name="ssh_username">SSH Username</string>
+    <string name="ssh_password">SSH Password</string>
+    <string name="choose_refresh_rate">Choose refresh rate expressed in seconds</string>
+    <string name="enter_the_custom_command">Enter the custom command</string>
+    <string name="forward">Forward</string>
+    <string name="backward">Backward</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+
+</resources>
